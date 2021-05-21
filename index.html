@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="index.css"
+</head>
+<body id='b' >
+    <div id='circularc'></div>
+    <h1 id='h1'>draw</h1>
+    <label for="colorpicker">Color Picker:</label>
+    <input type="color" id="colorpicker" value="#0000ff">
+    <button onclick="draw=false;erase()">Erase</button>
+    <br>
+    <canvas id="myPics" width="10000" height="10000"></canvas>
+</body>
+<script type="text/javascript" src="index.js"></script>
+</html>
